@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+</style>
+</head>
+<body>
+    <!--Heading and Navigation Bar-->
+        <header>
+            <h1 class="logo">Cozy Café Corner</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#toppicks">Top picks</a></li>
+                <li><a href="#menutable">Menu Table</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="login" type="button">Sign Up </button>
+             </ul>
+        </header>
+
+    <!--Main section-->
+    <main>
+    <section id="herosection">
+        <div class="container">
+       <div class="info">
+         <h2 id="infohead">Comfort in Every Sip!</h2>
+        <p>Find your calm in the aroma of freshly brewed coffee.
+        A cozy corner, soft light, and the taste that feels like home.</p>
+        <a href="#">Explore Menu </a>
+       </div>
+        </div>
+        </section>
+    </br>
+    <!--The Top Picks Section-->
+    <section class="toppicks" id="toppicks">
+      <h2>Our Top Picks </h2>  
+      <div class="cards">
+        <div class="card1">
+            <img src="Caramel Macchiato.jpg" alt="caramel"height="50%" width="350px">
+            <h3>Caramel Macchiato</h3>
+            <p>
+Smooth espresso layered with steamed milk and a drizzle of sweet caramel, a perfect balance of warmth and indulgence.
+            </p>
+            <button type="button">ORDER NOW</button>
+        </div>
+        <div class="card2">
+            <img src="Mocha.jpg" alt="mocha" height="50%" width="350px">
+            <h3>Choco Mocha</h3>
+            <p>
+Rich espresso blended with chocolate and velvety steamed milk, topped with a touch of cocoa, a chocolate lover’s delight.
+            </p>
+            <button type="button">ORDER NOW</button>
+        </div>
+        <div class="card3">
+            <img src="iced coffee.jpg" alt="icedcoffee"height="50%" width="350px">
+            <h3>Iced Coffee</h3>
+            <p>
+Chilled, refreshing, and perfectly brewed, a cool companion for sunny afternoons or a quick pick-me-up.
+            </p>
+            <button type="button">ORDER NOW</button>
+        </div>
+      </div>
+     </section>
+       <!--The Menu Table-->
+       <section id="menutable">
+        <div class="menu">
+            <h3> Our Menu & Price Table</h3>
+            <table>
+                <thead>
+                    <th>COFFEE</th>
+                    <th>SIZE</th>
+                    <th>PRICE</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Caramel Macchiato</td>
+                        <td>Small</td>
+                        <td>₹130</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>₹300</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Choco Mocha</td>
+                        <td>Small</td>
+                        <td>₹100</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>₹220</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Iced Coffee</td>
+                        <td>Small</td>
+                        <td>₹120</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>₹250</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+       </section>
+
+    <!--Order yours-->
+    <section class="order" id="order">
+  <div class="yourorder">
+    <h3>Place Your Order:</h3>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" name="name" id="name" placeholder="Enter Your Name"><br><br>
+
+      <label for="choosecoffee">Choose Your Coffee:</label><br>
+      <select name="choosecoffee" id="choosecoffee">
+        <option value="mocha">Choco-Mocha</option>
+        <option value="caramel">Caramel-Latte</option>
+        <option value="icedcoffee">Iced-Coffee</option>
+      </select><br><br>
+
+      <label for="choosesize">Choose The Size:</label><br>
+      <select name="choosesize" id="choosesize">
+        <option value="small">Small</option>
+        <option value="large">Large</option>
+      </select><br><br>
+
+      <label for="instruction">Extra Instructions:</label><br>
+      <textarea name="instruction" id="instruction" cols="15" rows="3" placeholder="Ex: Less sugar"></textarea><br><br>
+
+      <button id="submit" type="submit">Done</button>
+    </form>
+  </div>
+</section>
+    </main>
+<br/>
+
+<!--Contact Us -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="contact-info" id="contact">
+      <h3>Contact Us:</h3>
+      <p>Phone:+91 1234567890</p>
+      <p>Email:order@cozycafecorner.com</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Cozy Cafe Corner. All rights reserved.</p>
+      <p>Made by Anterjita Biswas</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html> 
