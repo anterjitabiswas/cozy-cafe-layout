@@ -37,7 +37,7 @@ li a{
     }
 
 li a:hover{
-    color:black;
+    color: rgb(233, 233, 181) ;
 }
    
 #login{ 
@@ -53,7 +53,7 @@ li a:hover{
     border:none;
 }
  #login:hover{
-    background-color: black;
+    background-color:rgb(162, 89, 89);
 }
 
 @media(max-width: 768px) {
@@ -124,7 +124,7 @@ li a:hover{
     'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', 
     Arial, sans-serif;
-    font-weight: light;
+    font-weight: light ;
 }
 .info a{
     background-color: rgb(100, 73, 38);
@@ -137,7 +137,7 @@ li a:hover{
     font-family: monospace;
 }
 .info a:hover{
-    color: black;
+    color:rgb(148, 148, 83);
 }
 @media(max-width:768px){
     #herosection{
